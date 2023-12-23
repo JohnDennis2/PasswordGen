@@ -15,6 +15,7 @@ var generateBtn = document.querySelector("#generate");
 
 
 function writePassword() {
+
   var generateBtn = document.querySelector("#generate");
   generateBtn.addEventListener("click", writePassword);
 
@@ -23,9 +24,12 @@ let choosenumbers = confirm("Would you like to choose a number?")
 let chooseUpperLetters = confirm("Would you like an uppercase letter?")
 let chooseLowerLetters = confirm("Would you like a lowercase letter?")
 
-chooseSpecial
+
+passwordInput = Math.floor(Math.random()*Passwordlength);
+
+
 if (chooseSpecial) {
-  special
+  special.querySelector.chooseSpecial
 }
 
 choosenumbers
@@ -42,12 +46,16 @@ chooseLowerLetters {
 
 
 }
+
 for( Passwordlength = (i = 0; i < 8 ; i++))
-var password = generatePassword();
+
+
 
   var passwordText = document.querySelector(numbers,special,upperLetters,lowerLetters);
 
   passwordText.value = password;
+
+  var password = generatePassword();
 
   return;
 
