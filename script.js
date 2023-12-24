@@ -2,6 +2,7 @@
 
 
 //pseudo code section
+
 //
 
 
@@ -21,22 +22,32 @@ const upperLetters = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z"
 const lowerLetters = "a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z"
 
 
-
 let chooseSpecial = confirm("Would you like a special character?")
-let choosenumbers = confirm("Would you like to choose a number?")
+let choosenumbers = confirm("Would you like to a number?")
 let chooseUpperLetters = confirm("Would you like an uppercase letter?")
 let chooseLowerLetters = confirm("Would you like a lowercase letter?")
 
 
 
+function chooseItems(numbers,special,upperLetters,lowerLetters)
+{
+  if (chooseLowerLetters = true) {
+    
+  }
+}
+
+
+
+
+
 function writePassword() {
 
+  const    
 
 
 
 
-Passwordlength = 8
- Passwordlength = (i = 0; i <= 8 ; i++)
+
 
 
   var generateBtn = document.querySelector("#generate");
@@ -67,9 +78,11 @@ chooseLowerLetters {
 
 }
 
+Passwordlength = 8
+ PasswordlengthChoice  = (i = 0; i <= 8 ; i++)
 
 const ChoicesArray = [ {chooseLowerLetters} , {chooseUpperLetters}, {chooseSpecial}, {choosenumbers}]
-
+ 
 
 passwordInput = Math.floor(Math.random()*Passwordlength);
 
@@ -79,7 +92,7 @@ passwordInput = Math.floor(Math.random()*Passwordlength);
 
   var password = generatePassword();
 
-  return;
+return password;
 
 }
 
