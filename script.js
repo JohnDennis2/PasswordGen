@@ -41,24 +41,29 @@ let choosenumbers = confirm("Would you like to a number?")
 let chooseUpperLetters = confirm("Would you like an uppercase letter?")
 let chooseLowerLetters = confirm("Would you like a lowercase letter?")
 
-
+var generateBtn = document.querySelector("#generate");
 
 function chooseItems(numbers,special,upperLetters,lowerLetters)
 {
-  if (chooseLowerLetters = true) {
+  if prompt( "Would you like a special character?", chooseSpecial)
 
-  
-    
-  }
 }
 
+{
+  if prompt("Would you like to a number?", choosenumbers)
 
+}
+{
+if prompt("Would you like an uppercase letter?", chooseUpperLetters)
+}
 
 
 
 function writePassword() {
 
-  const    
+
+
+
 
 
 
@@ -68,7 +73,7 @@ function writePassword() {
 
   var generateBtn = document.querySelector("#generate");
 
-  generateBtn.addEventListener("click", writePassword);
+  
 
   
 
@@ -113,7 +118,7 @@ return password;
 }
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("onClick", writePassword);
 
 
 generatePassword()
