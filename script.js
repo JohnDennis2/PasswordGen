@@ -43,7 +43,7 @@ let chooseLowerLetters = confirm("Would you like a lowercase letter?",)
 
 let whatSpecial = prompt("please choose a special character")
 let whatNumber = prompt("please choose a number")
-let whatUpper = prompt("please choose an uppper lette")
+let whatUpper = prompt("please choose an uppper letter")
 let whatLower = prompt("please choose a lower letter")
 
 function passChoices ()
