@@ -1,12 +1,15 @@
 // Assignment code here
 
 
+//pseudo code section
+//
+
 
 
 // Get references to the #generate element
 
 
-var generateBtn = document.querySelector("#generate");
+var generateBtn = document.querySelector("generate");
 
 // Write password to the #password input
 
@@ -23,6 +26,7 @@ let chooseSpecial = confirm("Would you like a special character?")
 let choosenumbers = confirm("Would you like to choose a number?")
 let chooseUpperLetters = confirm("Would you like an uppercase letter?")
 let chooseLowerLetters = confirm("Would you like a lowercase letter?")
+
 
 
 function writePassword() {
@@ -64,6 +68,7 @@ chooseLowerLetters {
 }
 
 
+const ChoicesArray = [ {chooseLowerLetters} , {chooseUpperLetters}, {chooseSpecial}, {choosenumbers}]
 
 
 passwordInput = Math.floor(Math.random()*Passwordlength);
