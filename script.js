@@ -30,11 +30,13 @@
 
 
 
-const numbers = "1,2,3,4,5,6,7,8,9"
-const special =  "~`! @#$%^&*()-_+={}[]|;:"
-const upperLetters = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z"
-const lowerLetters = "a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z"
+const numbers = [1,2,3,4,5,6,7,8,9]
+const special =  ["~`! @#$%^&*()-_+={}[]|;:"]
+const upperLetters = ["A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z"]
+const lowerLetters = ["a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z"] 
 
+console.log (numbers)
+console.log (special)
 
 let chooseSpecial = confirm("Would you like a special character?")
 let choosenumbers = confirm("Would you like to a number?")
@@ -43,64 +45,25 @@ let chooseLowerLetters = confirm("Would you like a lowercase letter?")
 
 var generateBtn = document.querySelector("#generate");
 
-function chooseItems(numbers,special,upperLetters,lowerLetters)
-{
-  if prompt( "Would you like a special character?", chooseSpecial)
-
-}
-
-{
-  if prompt("Would you like to a number?", choosenumbers)
-
-}
-{
-if prompt("Would you like an uppercase letter?", chooseUpperLetters)
-}
-
-
-
 function writePassword() {
 
+function chooseItems()
 
-
-
-
-
-
-
-
-
-
-  var generateBtn = document.querySelector("#generate");
-
-  
-
-  
-
-
-
-
-if (chooseSpecial) {
-  choosenumbers
+{
+ let answer = prompt( "Would you like a special character?" )
+console.log (answer)
 }
 
-choosenumbers
-if {
-    chooseUpperLetters
-}
-
-chooseUpperLetters {
-
-chooseLowerLetters
+{
+  prompt("Would you like to a number?" )
 
 }
-chooseLowerLetters {
-
-
+{
+   prompt("Would you like an uppercase letter?")
 }
 
 Passwordlength = 8
- PasswordlengthChoice  = (i = 0; i <= 8 ; i++)
+ PasswordlengthChoice  = ('i = 0; i <= 8 ; i++')
 
 const ChoicesArray = [ {chooseLowerLetters} , {chooseUpperLetters}, {chooseSpecial}, {choosenumbers}]
  
@@ -122,6 +85,4 @@ generateBtn.addEventListener("onClick", writePassword);
 
 
 generatePassword()
-
-
 
