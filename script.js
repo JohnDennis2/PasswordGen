@@ -35,6 +35,7 @@ const special =  [",~,`,!, @,#,$,%,^,&,*,(,)-,_,+,=,{,},[,],|,;,:,"]
 const upperLetters = ["A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z"]
 const lowerLetters = ["a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z"] 
 
+let Passwordlength = prompt("please choose a password length between 8 and 128 characters")
 
 let chooseSpecial = confirm("Would you like a special character?",)
 let choosenumbers = confirm("Would you like to a number?",)
@@ -43,13 +44,13 @@ let chooseLowerLetters = confirm("Would you like a lowercase letter?",)
 
 let whatSpecial = prompt("please choose a special character")
 let whatNumber = prompt("please choose a number")
-let whatUpper = prompt("please choose an uppper letter")
+let whatUpper = prompt("please choose an uppper lette")
 let whatLower = prompt("please choose a lower letter")
 
 function passChoices ()
  {
 
-    if (chooseSpecial === true)
+    
 
 
 
