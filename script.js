@@ -3,14 +3,28 @@
 
 //pseudo code section
 
-//
+//as the user when I naviagte to the site,
+//I select the generate button.
+//a promt displays asking the length of the password
+//i choose a length between 8-128 chracters only
+//then a promt asking if would like to choose a number
+//i choose a number
+//then im ask if I would like an Uppercase letter
+//i choose and uppercae lettr
+//then im ask if i would like a lowercase letter
+//I choose a lowercase letter
+//then im ask if i would  like a speacial charatcer
+//then i choose a special character
+//after my choices are made then they are validated
+//after validation then the password should be generated
+//after the password is generated then it should be displayed to the user in an alert
 
 
 
 // Get references to the #generate element
 
 
-var generateBtn = document.querySelector("generate");
+
 
 // Write password to the #password input
 
@@ -32,6 +46,8 @@ let chooseLowerLetters = confirm("Would you like a lowercase letter?")
 function chooseItems(numbers,special,upperLetters,lowerLetters)
 {
   if (chooseLowerLetters = true) {
+
+  
     
   }
 }
@@ -51,12 +67,12 @@ function writePassword() {
 
 
   var generateBtn = document.querySelector("#generate");
+
   generateBtn.addEventListener("click", writePassword);
 
   
 
 
-passwordInput = Math.floor(Math.random()*Passwordlength);
 
 
 if (chooseSpecial) {
@@ -98,4 +114,9 @@ return password;
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+
+generatePassword()
+
+
 
