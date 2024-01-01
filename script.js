@@ -84,6 +84,7 @@ return password;
 }
 
 generateBtn.addEventListener("onClick", writePassword);
+
 generatePassword()
 writePassword()
 
