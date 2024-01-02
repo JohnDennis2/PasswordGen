@@ -43,14 +43,15 @@ function writePassword() {
   {
     return alert("Not allowed")
   }
+  const upperLetterschioce = promt("do you want uppercase letters?")
+  const lowerLetterschoice = promt("do you want lowercase letters?")
+  const specialCharchoise = promt("do you want speical characters?")
+  const numbersChoice = promt("do you want numbers?")
 
   var passwordText = document.querySelector("#password");
   passwordText.value = password;
 
-   const upperLetterschioce = promt("do you want uppercase letters?")
-   const lowerLetterschoice = promt("do you want lowercase letters?")
-   const specialCharchoise = promt("do you want speical characters?")
-   const numbersChoice = promt("do you want numbers?")
+   
 
 
 

@@ -6,4 +6,4 @@ We were tasked to use promts and a function that would return a random password.
 
 
 
-![alt text](./passwordGensite.png)
+![generator](./passwordGensite.png)
