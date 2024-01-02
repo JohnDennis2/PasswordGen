@@ -33,6 +33,10 @@ const lowerLetters = ["a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z"]
 
 
 // Write password to the #password input
+var generateBtn = document.querySelector("#generate");
+var passwordText = document.querySelector("#password");
+  passwordText.value = password;
+
 
 function writePassword() {
 
@@ -60,18 +64,6 @@ function writePassword() {
    return password
 
 }
-
-   
-
-
-
-
-function generatePassword() { 
-
-  var passwordLength = prompt("How long do you want your password to be?");
-  if(pwdLength > 128 || pwdLength < 8) {
-    return alert("Not allowed")
-  }
       
 writePassword()
 
