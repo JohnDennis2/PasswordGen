@@ -23,8 +23,7 @@
 
 // Get references to the #generate element
 
-var passwordText = document.querySelector("#password");
-passwordText.value = password;
+
 
 
 const numbers = [1,2,3,4,5,6,7,8,9]
@@ -37,10 +36,11 @@ const lowerLetters = ["a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z"]
 
 function writePassword() {
 
+  function generatePassword()
+  {
   var passwordText = document.querySelector("#password");
   passwordText.value = password;
 
-  var password = generatePassword();
 
   const passwordLength = prompt("How long do you want your password to be, its must be between 8 and 128 characters)
   
@@ -54,10 +54,12 @@ function writePassword() {
   const specialCharchoise = promt("do you want speical characters?")
   const numbersChoice = promt("do you want numbers?")
 
-  let PassInput = parseInt(Math.floor(Math.random() * chars.length));
-   let passwordText = PassInput
+  let PassInput = parseInt(Math.floor(Math.random() * password.length));
+   let passwordText = PassInput }
 
- 
+   return password
+
+}
 
    
 
@@ -71,7 +73,5 @@ function generatePassword() {
     return alert("Not allowed")
   }
       
-
-generatePassword()
 writePassword()
 
