@@ -6,4 +6,6 @@ We were tasked to use promts and a function that would return a random password.
 
 
 
-![generator](./passwordGensite.png)
+![passwordGensite](./passwordGensite.png)
+
+![generator](./assets/generator.png)
