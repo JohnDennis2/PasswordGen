@@ -22,7 +22,10 @@
 
 
 // Get references to the #generate element
-var generateBtn = document.querySelector("#generate");
+
+var passwordText = document.querySelector("#password");
+passwordText.value = password;
+
 
 const numbers = [1,2,3,4,5,6,7,8,9]
 const special =  [",~,`,!, @,#,$,%,^,&,*,(,)-,_,+,=,{,},[,],|,;,:,"]
@@ -33,6 +36,9 @@ const lowerLetters = ["a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z"]
 // Write password to the #password input
 
 function writePassword() {
+
+  var passwordText = document.querySelector("#password");
+  passwordText.value = password;
 
   var password = generatePassword();
 
@@ -48,8 +54,10 @@ function writePassword() {
   const specialCharchoise = promt("do you want speical characters?")
   const numbersChoice = promt("do you want numbers?")
 
-  var passwordText = document.querySelector("#password");
-  passwordText.value = password;
+  let PassInput = parseInt(Math.floor(Math.random() * chars.length));
+   let passwordText = PassInput
+
+ 
 
    
 
@@ -63,7 +71,6 @@ function generatePassword() {
     return alert("Not allowed")
   }
       
-generateBtn.addEventListener("onClick", writePassword);
 
 generatePassword()
 writePassword()
