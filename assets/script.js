@@ -36,23 +36,13 @@ function writePassword() {
 
   var password = generatePassword();
 
-  const passwordLength = prompt("How long do you want your password to be, its must be between 8 and 128 characters)
-  
-  if(passwordLength > 128 || passwordLength < 8)
-
-  {
+  const passwordLength = prompt("How long do you want your password to be, its must be between 8 and 128 characters);
+  if(passwordLength > 128 || passwordLength < 8) {
     return alert("Not allowed")
   }
 
   var passwordText = document.querySelector("#password");
   passwordText.value = password;
-
-   const upperLetterschioce = promt("do you want uppercase letters?")
-   const lowerLetterschoice = promt("do you want lowercase letters?")
-   const specialCharchoise = promt("do you want speical characters?")
-   const numbersChoice = promt("do you want numbers?")
-
-
 
 
 function generatePassword() { 
